@@ -22,7 +22,7 @@ fun main()
         z < x && z < y -> min = z
         else -> min = x
     }
-        println("max (x,z) = " + min + " min(x,y,z) = " + max)
+        println("max (x,z) = " + max + " min(x,y,z) = " + min)
     println("L = " + (2 * max - 3 * min))
     }
     catch (e:Exception)

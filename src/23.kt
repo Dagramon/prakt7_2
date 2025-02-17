@@ -12,7 +12,7 @@ fun main()
         val R = readln().toDouble()
         when
         {
-            r < R ->
+            r < R && R > 0 && r > 0 ->
             {
                 when
                 {
@@ -20,7 +20,7 @@ fun main()
                     else -> println("Точка не попадает в кольцо")
                 }
             }
-            else -> println("r должно быть меньше R")
+            else -> println("r должно быть меньше R и радиус не может быть отрицательным ")
         }
     }
     catch (e:Exception)
